@@ -44,13 +44,11 @@ public class AppBase extends AppCompatActivity {
 
         getSupportActionBar().show();
         divisions = new ArrayList<>();
-        divisions.add("CSE-423 Digital Systems Design");
+
         divisions.add("CSE-433 Software Engineering");
-        divisions.add("Hum-445 Engineering Management");
-        divisions.add("HUM-447 Financial, Cost  and Managerial Accounting");
-        divisions.add("CSE-489 Software Architecture");
-        divisions.add("CSE-424 Digital Systems Design(Sessional)");
-        divisions.add("CSE-434 Software Engineering(Sessional)");
+        divisions.add("CSE-343 Artificial Intelligence");
+        divisions.add("CSE-243 Object Oriented Programming");
+        divisions.add("CSE-143 Structured Programming");
         gridView = (GridView) findViewById(R.id.grid);
         basicFields.add("ATTENDANCE");
         //sicFields.add("SCHEDULER");
